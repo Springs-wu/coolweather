@@ -225,7 +225,6 @@ public class ChooseAreaActivity extends Activity {
 			if (isFromWeatherActivity) {
 				Intent intent = new Intent(this, WeatherActivity.class);
 				startActivity(intent);
-				
 			}
 			finish();
 		}
